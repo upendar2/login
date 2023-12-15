@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="icon" href="C:\Users\gorle\OneDrive\Desktop\UPENDRA\facebook login.png">
+    <title>Login in to Facebook</title>
+</head>
+<body>
+    <h1>facebook</h1>
+    <foam>
+        <div class="container">
+            <p>Log in to Facebook</p>
+            <label for="username"></label>
+            <input type="text" name="username" placeholder="Email address or phone number" required>
+            <label for="password"></label>
+            <input type="password" id="passwordInput" placeholder="Enter your password">
+  <button type="button" id="togglePasswordBtn" onclick="myfun()">Show/Hide Password</button>
+  <input type="submit" value="Log In">
+  <input type="color">
+            <a href="www.google.com">Forgotten account?</a>
+            <a href="sign up for Facebook"> Sign up for Facebook</a>
+        </div>
+    </foam>
+</body>
+<script>
+    function myfun() {
+  const passwordInput = document.getElementById("passwordInput");
+  if (passwordInput.type === "password") {
+    passwordInput.type = "text";
+   
+  } else {
+    passwordInput.type = "password";
+   
+  }
+}
+
+</script>
